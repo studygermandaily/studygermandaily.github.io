@@ -78,10 +78,11 @@ Im Jahr 2021 habe ich mich außerdem selbständig gemacht und unterrichte seitde
     <h5 class="w3-center w3-padding-48"><span class="w3-tag w3-wide">Kurse</span></h5>
 
     <div class="w3-row w3-center w3-card w3-padding">
-<!--       <a href="javascript:void(0)" onclick="openMenu(event, 'Eat');" id="myLink">
+<!--       <a href="javascript:void(0)" onclick="openMenu(event, 'Eat');" id="course1"> -->
+      <a href="javascript:void(0)" id="course1">
         <div class="w3-col s6 tablink">Einzelunterricht</div>
-      </a> -->
-      <a href="javascript:void(0)" onclick="openMenu(event, 'Drinks');">
+      </a>
+      <a href="javascript:void(0)" onclick="openMenu(event, 'Drinks');" id="course2">
         <div class="w3-col s6 tablink">Konversationskurse</div>
       </a>
     </div>
@@ -212,7 +213,7 @@ function openMenu(evt, menuName) {
   document.getElementById(menuName).style.display = "block";
   evt.currentTarget.firstElementChild.className += " w3-dark-grey";
 }
-document.getElementById("myLink").click();
+document.getElementById("course2").click();
 </script>
 
 </body>
